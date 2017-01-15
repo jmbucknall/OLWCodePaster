@@ -46,7 +46,7 @@ namespace CodePaster {
       }
 
       content = String.Format(
-        "<div class=\"jmbcodeblock\">{0}<pre><code class=\"language={1}\">{2}</code></pre>{0}</div>{0}", 
+        "<div class=\"jmbcodeblock\">{0}<pre><code class=\"language-{1}\">{2}</code></pre>{0}</div>{0}", 
         Environment.NewLine, language, GetCode());
 
       return DialogResult.OK;

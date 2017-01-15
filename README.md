@@ -35,8 +35,8 @@ Code block format
 
 The code will be wrapped in a special code block like this:
 
-    <div class=\"jmbcodeblock\">
-		<pre><code class="language=foo">
+    <div class="jmbcodeblock">
+		<pre><code class="language-foo">
 	_your formatted code_ 
 		</code></pre>
 	</div>
